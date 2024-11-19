@@ -36,6 +36,8 @@ main {
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.461);
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 #login > #imagem {
@@ -46,7 +48,16 @@ main {
     background-position: right top;
 }
 
-#login > form {
+#login > #formulario {
     display: block;
     padding: 10px;
+}
+
+#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#formulario > p {
+    font-size: 0.8em;
 }
